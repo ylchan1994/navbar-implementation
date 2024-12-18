@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+}
+
+body {
+  height: 100vh;
+}
+
+#navbar {
+  padding: 10px 15px;
+  border: 1px solid black;
+  position: sticky;
+  width: 25%;
+  height: 100%:
+}
+
+ul {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+li {
+  padding: 1rem;
+}
+
+li:hover {
+  background-color: #EEEEFF;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+#detail-pane {
+  padding: 1.5rem;
+}
